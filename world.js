@@ -5,7 +5,7 @@ function loadDOM(){
 }
 
 function displaySearch(){
-    document.getElementById('lookup').onclick = function() {
+    document.getElementById('lookupc').onclick = function() {
         let url = "http://localhost/info2180-lab5/world.php?country=";
         var input = document.getElementById("country").value;
         let query = Sanitizer(input);
