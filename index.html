@@ -6,6 +6,8 @@
 
 		<!-- you can modify this as needed or to your preference -->
 		<link href="world.css" type="text/css" rel="stylesheet" />
+		<link href="http://fonts.cdnfonts.com/css/matrix" rel="stylesheet">
+		<link href="http://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
 
 		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
@@ -13,18 +15,28 @@
 
 	<body>
 		<header>
-			<h1>World Database Lookup</h1>
+			<div class="container">
+				<img src="globe1.gif" style="width:440px;height:250px;">
+				<span class="cursor">
+
+					<h1>World Database Lookup</h1>
+				</span>
+			</div>
+
 		</header>
 
 		<main>
-			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
-			</div>
+			<div class="main-container">
+				<div id="controls">
+					<label for="country">Country:</label>
+					<input id="country" type="search" name="country" placeholder="Enter country name" />
+					<button id="lookup" class="btn">Lookup</button>
+					<button id="lookup" class="btn">Lookup Cities</button>
+				</div>
 			
-			<div id="result">
+				<div id="result">
 				<!-- countries will appear here -->
+				</div>
 			</div>
 		</main>
 
