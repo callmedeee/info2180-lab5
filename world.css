@@ -100,3 +100,25 @@ button{
     background-color: white;
     color: black;
   }
+
+#result{
+    color: white;
+}
+table{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+th {
+    background-color: #193859;
+    color: white;
+    font-size: large;
+  }
+
+td{
+    background-color: #9FD6EE; 
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+}
